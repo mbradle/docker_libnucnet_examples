@@ -16,7 +16,7 @@ This first pulls and installs the necessary codes.  It then downloads the data. 
 
 I can now run any of the [libnucnet example codes](https://sourceforge.net/p/libnucnet/home/Home/) in the Tutorials.  For example, I can run
 
-**docker run -it -e VAR='./create_nuc_collection' webnucleo/libnucnet_examples**
+**docker run -it -e VAR="./create_nuc_collection" webnucleo/libnucnet_examples**
 
 If the example requires input data, you must pass the directory into the docker container.  For example, since I downloaded the data to */Users/bradleymeyer/Desktop/data_pub*, I can run
 
